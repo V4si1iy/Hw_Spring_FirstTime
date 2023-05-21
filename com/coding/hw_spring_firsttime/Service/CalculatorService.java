@@ -23,5 +23,7 @@ public class CalculatorService {
     public Double divisionCalculator(Integer num, Integer num2) {
         if (num2 == 0) throw new IllegalArgumentException();
         return (double) num / (double) num2;
+
+
     }
 }
